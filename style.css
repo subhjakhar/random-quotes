@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif+Display&family=Raleway&family=Roboto+Serif&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif Display', serif;
+font-family: 'Ubuntu', sans-serif; 
+font-family: 'Roboto Serif', sans-serif;
+*/
+body{
+    background-color: #335E45;
+    background-color: #fff;
+    background-image: url(Group\ 30.svg);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 80%;
+    background-color: #335e45de;
+    color: #fff;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.quoteClass{
+    margin: auto;
+    display: block;
+    width: 80%;
+    font-size: 1.7em;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.3em;
+}
+.quoteAuthor{
+    display:block;
+    width: fit-content;
+    margin: 10px auto;
+    font-size: 20px;
+    font-family: 'Noto Serif Display', serif;
+}
+.button{
+    position: absolute;
+    bottom: 5%;
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: #335E45;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+@media (max-width : 765px) {
+    .container{
+        height: 75vh;
+    }
+    .quoteClass{
+        font-size: 1.2em;
+    }
+    .button{
+        padding: 8px 15px;
+        font-size: 1em;
+    }
+    .quoteAuthor{
+        font-size: 1em;
+        font-weight: 500;
+        font-family: 'Noto Serif Display', serif;
+    }
+}
