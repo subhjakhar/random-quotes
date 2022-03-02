@@ -4,14 +4,8 @@
     margin: 0;
     padding: 0;
 }
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Noto Serif Display', serif;
-font-family: 'Ubuntu', sans-serif; 
-font-family: 'Roboto Serif', sans-serif;
-*/
 body{
     background-color: #335E45;
-    background-color: #fff;
     background-image: url(Group\ 30.svg);
 }
 .main{
